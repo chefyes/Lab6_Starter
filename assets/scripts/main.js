@@ -112,9 +112,9 @@ function bindShowMore() {
 
     showMoreButton.addEventListener("click", (e) => {
         if(e.target.textContent == "Show more") {
-//             for (let i = 3; i < 4; i++) {
-//                 mainEle.appendChild(recipeArr[i]);
-//             }
+            for (let i = 3; i < 4; i++) {
+                mainEle.appendChild(recipeArr[i]);
+            }
             // switch text
             e.target.textContent = "Show less";
         }
